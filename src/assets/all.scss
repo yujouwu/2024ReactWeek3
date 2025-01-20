@@ -1,0 +1,21 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.min.css';
+
+
+.main-image {
+  height: 300px;
+}
+.more-images {
+  height: 150px;
+  border: 1px solid $gray-400;
+  border-radius: 3px;
+  padding: 6px;
+  cursor: pointer;
+  &.active {
+    border: 2px solid $primary;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
